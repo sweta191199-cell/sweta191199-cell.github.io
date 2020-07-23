@@ -1,0 +1,82 @@
+.container {
+  width: 50%;
+  background-color: transparent;
+  align-self: center;
+  color:white;
+}
+body {
+  font-family: "Times Roman", times roman;
+  background-color: rgba(255,255,255);
+}
+background-image: {
+  opacity: 0.6;
+}
+
+background-image:hover {
+  opacity: 1.0;
+}
+#textField {
+  margin-bottom: 20px;
+}
+table {
+  margin: auto;
+}
+td {
+  background-color: #DEB887;
+  height: 125px;
+  width: 125px;
+  border: solid rgb(119, 136, 153) 2px;
+  border-radius: 0px;
+}
+i.fa-circle {
+  background-color: none;
+}
+i {
+  color: white;
+}
+
+#TableArea {
+  display: block;
+  position: fixed;
+}
+#end {
+  display: none;
+  background-color: rgba( 0.8);
+  position: absolute;
+   bottom: 7px;
+  top: 7px;
+  left: 5px;
+    right: 5px;
+}
+#end > h2 {
+  margin-top: 125px;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+#end > button {
+  font-size: 15px;
+  padding: 10px;
+}
+.ButtonGroup {
+  border: 2px #c0c0c0 solid;
+  margin: auto;
+    padding: 7px;
+  margin: 10px auto 10px auto;
+    border-radius: 10px;
+
+}
+#playerButton {
+  width: 225px;
+}
+#symbolChoseButton {
+  width: 225px;
+}
+#levelButton {
+  width: 290px;
+}
+.ButtonGroup > button {
+  background-color: inherit;
+  color: inherit;
+  font-size: 20px;
+   border-radius: 10px;
+}
