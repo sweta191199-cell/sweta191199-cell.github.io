@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Tic Tac Toe </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open-sans">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+ <style>
+body {
+  background-image: url('https://wallpaperaccess.com/full/19353.jpg');
+
+  /* Full height */
+  height: 100%
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+  
+   <div class="container text-center">
+    <h2>                                            Martians present the entertainment source </h2>
+  <div class="container text-center">
+    <h2>                              Tic-tac-toe </h2>
+    <div id="TableArea"> 
+      <div id="field">
+        <div id="playerButton" class="ButtonGroup">
+          <button id="1Player" class="btn" value=1>Human V/S AI</button>
+          <button id="2Player" class="btn" value=2>Human V/S Human</button>
+        </div> <!-- End of 1 or 2 players -->
+        <div id="boxSize">
+          <h2>Select board size 
+            (For Human v/s Human mode only):</h2>
+          <input type="number" class="form-control" placeholder="By default the size is 3X3" max=10 min=3></input>
+        </div> <!-- End of size field-->
+        <div id="Symbol" >
+          <h2> Select your symbol: </h2>
+          <div id="symbolButton" class="ButtonGroup">
+            <button class="btn" value='X'>X </button>
+            <button class="btn" value='O'>O </button>
+          </div>
+        </div> <!-- End of symbol-->
+        <div id="Level">
+          <h2>Level:</h2>
+          <div id="levelButton" class="ButtonGroup">
+            <button class="btn" value='easy'>Easy</button>
+            <button class="btn" value='medium'>Medium</button>
+            <button class="btn" value='difficult'>Difficult</button>
+          </div>
+        </div>
+        <button id="Start" class="btn btn-primary">Start </button>
+      </div> <!-- End Mode Field -->
+      <div id="displayField"></div><!-- Field for table -->
+    </div> <!-- End Table Field -->
+    <div id="end">
+      <h2></h2>
+      <button  id="restartButton" class="btn btn-primary">Try Again</button> 
+    </div> <!-- End Display Field -->
+  </div><!-- End Container -->
+  <script src="myscripts.js"></script>
+</body>
+</html>
