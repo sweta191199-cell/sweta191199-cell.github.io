@@ -129,7 +129,7 @@ function MouseClick(){
 // Check Win function
 function checkWin(checkwinBoard,pos){
   var n = mode.size;
-  var max = n>=5?5:n;
+  var max = n>=n;
   var i = Math.floor(pos/n);
   var j = pos%n;
   var count=1;
