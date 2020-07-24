@@ -80,8 +80,8 @@ function printMap(size){
 // Make mouseover
 function MouseOver(){
    $(this).css('background-color','#DEB887');
-   if(symbolFlag) $(this).html('<i class="fa fa-times fa-5x"></i>');
-   else $(this).html('<i class="far fa-circle fa-5x"></i>');
+   if(symbolFlag) $(this).html('X')
+   else $(this).html('O');
  }
 // Make mouseout
 function MouseOut(){
