@@ -91,7 +91,7 @@ function MouseOut(){
 // Make mouseclick
 function MouseClick(){
    var pos = parseInt($(this).attr('id'));
-   if(symbolFlag) $(this).css('background-color','#FF7F50');
+   if(symbolFlag) $(this).css('background-color','#E9967A');
    else $(this).css('background-color','#8FBC8F');
    if(flag) {
      minimaxBoard[pos] = player1;
